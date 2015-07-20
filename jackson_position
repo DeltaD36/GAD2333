@@ -1,0 +1,26 @@
+using UnityEngine;
+using System.Collections;
+
+public class jackson_01 : MonoBehaviour 
+{
+	//public Vector3 position;
+
+
+	// Use this for initialization
+	void Start () 
+	{
+		GameObject myCube01 = GameObject.Find ("Cube01");
+		Transform myCube01Transform = myCube01.transform;
+		Vector3 position = myCube01Transform.position;
+
+		print ("My Cube01 is at " + position);
+		print ("the x-coordinate is at " + position.x);
+
+
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+	
+	}
