@@ -1,0 +1,23 @@
+using UnityEngine;
+using System.Collections;
+
+public class jackson_week02_02 : MonoBehaviour {
+	
+	public string ;
+	// Use this for initialization
+	void Start () {
+		string input = "'Possesses' poessess a great number of s's";
+		int count = 0;
+		foreach (char item in input) {
+			if (item == 's') {
+				count++;
+			}
+			print ("The total number of the 's' character in this sentence is " + count + ".");
+		}
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+}
