@@ -6,13 +6,13 @@ public class jackson_week02_02 : MonoBehaviour {
 	public string ;
 	// Use this for initialization
 	void Start () {
-		string input = "'Possesses' poessess a great number of s's";
+		string input = "'Possesses' poessess a great number of s's"; //You spelled possesses wrong the second time.
 		int count = 0;
 		foreach (char item in input) {
 			if (item == 's') {
 				count++;
 			}
-			print ("The total number of the 's' character in this sentence is " + count + ".");
+			print ("The total number of the 's' character in this sentence is " + count + ".");//This needs to go one line lower -- outside the for loop
 		}
 	}
 	
