@@ -16,6 +16,18 @@ public class jackson_week02_01 : MonoBehaviour {
 	{
 			print ("Goodbye " + myName);
 	}
+	
+	//The big point of this assignment is that the variable 'myName' is
++	//supplied by the user and the function 'Main' takes it and uses
+	//it to fill in the variable 'name' when it calls 'SayHello'.
+	//So first off, you needed to create the function 'Main'
+	//and not put the commands under 'Start'.
++	//You had the code working right, but then used 'Hello + myName' which shortcutted
++	//passing myName to name. It should be 'print ("Hello " + name);'
++	//Also, you didn't need to include the variable in 'SayGoodbye'.
+	
+	
+	
 // Update is called once per frame
 	void Update () {
 			
