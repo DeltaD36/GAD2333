@@ -54,3 +54,4 @@ public class jackson_move_it : MonoBehaviour
 			this.transform.position = position;
 		}
 	}
+}//You left out this last brace. It won't run without it.
